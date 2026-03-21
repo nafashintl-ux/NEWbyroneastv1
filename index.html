@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Byron East — Your In-Country Partner in China</title>
+  <meta name="description" content="Byron East is your on-the-ground partner in China. We help established ecommerce brands source, manufacture, and ship with confidence — directly from inside China.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- =================== NAVBAR =================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo">
+        <img src="logo.svg?v=3" alt="Byron East" class="logo-img">
+      </a>
+      <div class="nav-center" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#why">Why Us</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a href="#contact" class="btn btn-dark nav-cta">💬 Work With Us</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#services" onclick="closeMenu()">Services</a>
+    <a href="#why" onclick="closeMenu()">Why Us</a>
+    <a href="#process" onclick="closeMenu()">Process</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
+    <a href="#contact" class="btn btn-dark" onclick="closeMenu()">Work With Us</a>
+  </div>
+
+  <!-- =================== HERO =================== -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <div class="hero-label">
+          <span>●</span> Based in China · Available Worldwide
+        </div>
+        <h1>Your on-the-ground<br><span class="hero-accent">partner in China.</span></h1>
+        <p class="hero-sub">We help established ecommerce brands source smarter, manufacture with confidence, and ship efficiently — from inside China.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-dark">Work With Us</a>
+          <a href="#services" class="btn btn-outline">See Services</a>
+        </div>
+        <div class="hero-quote">
+          <div class="hero-quote-avatar">🏭</div>
+          <div class="hero-quote-text">
+            <p>"Finally a partner we can trust on the ground — it's like having our own team in China."</p>
+            <small>Ecommerce Brand Founder · 7-figure DTC brand</small>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-img-wrap">
+          <img src="elliott.jpg" alt="Elliott Johnson — Byron East Founder">
+        </div>
+        <div class="hero-badge">
+          <div class="hero-badge-icon">🇨🇳</div>
+          <div class="hero-badge-text">
+            <strong>8+ Years</strong>
+            <span>Operating in China</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== TRUST BAR =================== -->
+  <div class="trust-bar">
+    <div class="container trust-bar-inner">
+      <p class="trust-label">Trusted by brands worldwide</p>
+      <div class="trust-divider"></div>
+      <div class="trust-brands">
+        <span class="trust-brand">NORDVIK</span>
+        <span class="trust-brand">PACKHAUS</span>
+        <span class="trust-brand">HELIO</span>
+        <span class="trust-brand">DRAFTCO</span>
+        <span class="trust-brand">VELOSE</span>
+        <span class="trust-brand">MOXIE GOODS</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================== METRICS =================== -->
+  <section class="section" id="metrics">
+    <div class="container">
+      <div class="section-header fade-up">
+        <p class="label">By the numbers</p>
+        <h2>Results that speak for themselves.</h2>
+        <p>We've built our operation from the ground up inside China — giving your brand the edge that remote sourcing simply can't replicate.</p>
+      </div>
+      <div class="metrics-grid fade-up">
+        <div class="metric">
+          <span class="metric-number">100+</span>
+          <span class="metric-label">Factories vetted &amp; audited</span>
+        </div>
+        <div class="metric">
+          <span class="metric-number">8+</span>
+          <span class="metric-label">Years operating in China</span>
+        </div>
+        <div class="metric">
+          <span class="metric-number">24h</span>
+          <span class="metric-label">Guaranteed response time</span>
+        </div>
+        <div class="metric">
+          <span class="metric-number">0</span>
+          <span class="metric-label">Middlemen or markups</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== SERVICES =================== -->
+  <section class="section section-alt" id="services">
+    <div class="container">
+      <div class="section-header fade-up">
+        <p class="label">What we do</p>
+        <h2>End-to-end support for brands that are ready to scale.</h2>
+        <p>We handle every stage of the China supply chain — so you can focus on growing your brand.</p>
+      </div>
+      <div class="services-grid fade-up">
+        <div class="service-card">
+          <div class="service-icon">🔍</div>
+          <h3>Supplier Sourcing</h3>
+          <p>We find, vet, and negotiate with the right factories — using local relationships most brands can't access remotely.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🏗️</div>
+          <h3>Production Management</h3>
+          <p>From sample approval to final sign-off, we manage the full production cycle on your behalf.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🚢</div>
+          <h3>Logistics &amp; Shipping</h3>
+          <p>We coordinate freight, customs, and last-mile delivery — from factory floor to your fulfilment centre.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">✅</div>
+          <h3>Quality Assurance</h3>
+          <p>On-site inspections and third-party audits at every stage. We catch problems before they become expensive mistakes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== WHY US / PROCESS =================== -->
+  <section class="section" id="why">
+    <div class="container process-split">
+      <div class="process-intro fade-up">
+        <p class="label">Why Byron East</p>
+        <h2>Built for brands that know what they want.</h2>
+        <p>We work exclusively with established ecommerce businesses that have proven product-market fit and need a reliable in-country partner.</p>
+        <p>No hand-holding through business basics. Just experienced, on-the-ground execution from a team that lives and breathes China supply chains.</p>
+      </div>
+      <div class="process-steps fade-up" id="process">
+        <div class="process-step">
+          <span class="step-num">01</span>
+          <div class="step-content">
+            <h3>Discovery Call</h3>
+            <p>We learn your product requirements, volumes, and timelines — and assess whether we're the right fit for each other.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <span class="step-num">02</span>
+          <div class="step-content">
+            <h3>Supplier Matching</h3>
+            <p>We identify and vet the best factories from our established network, tailored to your specific product and quality standards.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <span class="step-num">03</span>
+          <div class="step-content">
+            <h3>Production &amp; QC</h3>
+            <p>We manage the build — on-site visits, sample reviews, and quality inspections so nothing slips through.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <span class="step-num">04</span>
+          <div class="step-content">
+            <h3>Delivery</h3>
+            <p>Your product arrives at your warehouse, on time and exactly to spec. We handle every detail in between.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== COMPARISON =================== -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header fade-up">
+        <p class="label">The difference</p>
+        <h2>Traditional agencies vs Byron East.</h2>
+      </div>
+      <div class="comparison-grid fade-up">
+        <div class="compare-card bad">
+          <p class="compare-card-label">Traditional</p>
+          <h3>Generic sourcing agents</h3>
+          <ul class="compare-list">
+            <li><span class="ci">❌</span> Operate remotely from your home country</li>
+            <li><span class="ci">❌</span> Rely on middlemen and second-hand contacts</li>
+            <li><span class="ci">❌</span> No on-site factory visits or real-time QC</li>
+            <li><span class="ci">❌</span> Work with any brand, at any stage</li>
+            <li><span class="ci">❌</span> Hidden markups on supplier pricing</li>
+            <li><span class="ci">❌</span> Slow response across time zones</li>
+          </ul>
+        </div>
+        <div class="compare-card good">
+          <p class="compare-card-label">Byron East</p>
+          <h3>Your in-country partner</h3>
+          <ul class="compare-list">
+            <li><span class="ci">✅</span> Based inside China — local access, local leverage</li>
+            <li><span class="ci">✅</span> Direct factory relationships, no intermediaries</li>
+            <li><span class="ci">✅</span> On-site visits and live QC at every stage</li>
+            <li><span class="ci">✅</span> Exclusively for established, scaling brands</li>
+            <li><span class="ci">✅</span> Full price transparency — you see what we see</li>
+            <li><span class="ci">✅</span> 24-hour response, China business hours</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== FAQ =================== -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header fade-up">
+        <p class="label">FAQ</p>
+        <h2>Common questions.</h2>
+      </div>
+      <div class="faq-list fade-up">
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            Who is Byron East for?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>We work with established ecommerce brands and founders who already have proven product-market fit and are ready to scale their China sourcing. If you're still in the idea or early-testing phase, we're likely not the right fit yet — but feel free to reach out and we'll be honest with you.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            Do you only work with brands already sourcing from China?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Not necessarily. If you're currently sourcing elsewhere and want to explore China as an option, we can help with that transition. What matters is that you have an established business and a clear product — not where you're currently manufacturing.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            How are you different from a standard sourcing agent?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Most sourcing agents work remotely, rely on middlemen, and take a cut from the manufacturer's margin. We're physically based in China, work directly with factories, and charge a transparent service fee — not a hidden markup on your goods. You get full visibility into costs and an actual person on the ground representing your interests.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            What categories do you cover?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>We specialise in consumer goods across categories including home, lifestyle, outdoor, apparel accessories, pet, beauty, and electronics accessories. We're generalist by design — our edge is the China supply chain expertise and local relationships, not a single niche.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            How do we get started?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Start by reaching out via email or the contact button below. We'll schedule a short discovery call to understand your needs and see if we're a good fit. There's no commitment at that stage — just an honest conversation about what you need and whether we can deliver it.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== CTA =================== -->
+  <section class="cta-section" id="contact">
+    <div class="container">
+      <div class="cta-inner fade-up">
+        <h2>Ready to work with a team on the ground?</h2>
+        <p>Tell us about your brand and your next production run. We'll be in touch within 24 hours.</p>
+        <a href="mailto:hello@byroneast.com" class="btn btn-white">Get in Touch →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== FOOTER =================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="logo.svg?v=3" alt="Byron East" class="logo-img">
+        <p>Your in-country partner in China — for brands that are ready to scale.</p>
+      </div>
+      <div class="footer-nav">
+        <a href="#services">Services</a>
+        <a href="#why">Why Us</a>
+        <a href="#process">Process</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="footer-contact">
+        <a href="mailto:hello@byroneast.com">hello@byroneast.com</a>
+        <a href="#contact">Work With Us</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 Byron East. All rights reserved.</p>
+      <p>Based in China · Trusted Worldwide</p>
+    </div>
+  </footer>
+
+  <script>
+    // ---- Navbar scroll ----
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 20);
+    });
+
+    // ---- Hamburger ----
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      mobileMenu.classList.toggle('open');
+    });
+    function closeMenu() {
+      hamburger.classList.remove('active');
+      mobileMenu.classList.remove('open');
+    }
+
+    // ---- FAQ accordion ----
+    function toggleFaq(btn) {
+      const item = btn.parentElement;
+      const isOpen = item.classList.contains('open');
+      // close all
+      document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+    }
+
+    // ---- Scroll fade-in ----
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.wilbound.com)",
+      "Bash(find /c/Users/numan/Downloads -maxdepth 2 -name *.html -o -name package.json -o -name index.html)"
+    ]
+  }
+}
